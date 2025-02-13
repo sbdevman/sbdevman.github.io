@@ -9,14 +9,12 @@ export default function Home() {
         <title>Saeid Babaei</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Saeid Babaei" />
         <p className="description">
-          Saeid Babaei<code>pages/index.js</code>
+          <code>pages/index.js</code>
         </p>
       </main>
-
       <Footer />
     </div>
   )
