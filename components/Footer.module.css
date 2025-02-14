@@ -21,7 +21,8 @@
 }
 
 .socialMediaList a {
-  color: rgb(122, 68, 68);
+  color:#000000;
+  
   font-size: 2rem; /* Adjust the size as needed */
   text-decoration: none;
 }

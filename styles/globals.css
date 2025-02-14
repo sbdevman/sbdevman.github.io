@@ -36,12 +36,12 @@ code {
 }
 
 .title {
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-weight: 100;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
   font-size: 3rem;
   font-feature-settings: normal;
   font-variation-settings: normal;
-  color:#46494c;
+  color:#000000;
 }
 
 .center-image {
@@ -55,4 +55,50 @@ code {
   width: 200px; /* Adjust the size as needed */
   height: 200px; /* Adjust the size as needed */
   object-fit: cover;
+}
+
+.about-content {
+  max-width: 600px;
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.contact-content {
+  max-width: 600px;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form label {
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #555;
 }
