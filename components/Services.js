@@ -8,7 +8,7 @@ export default function Services() {
                 <li><code>Architecture</code></li>
                 <li><code>Modernization</code></li>
                 <li><code>Research</code></li>
-                <li><code>Writing</code></li>
+                <li><code>Strategy</code></li>
                <li><code>Consulting</code></li>  
             </ul>
         </div>
