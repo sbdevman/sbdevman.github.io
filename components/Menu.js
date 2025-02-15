@@ -16,6 +16,9 @@ export default function Menu() {
           <li className={styles.menuItem}>
             <a href="/services">Services</a>
           </li>
+          <li className={styles.menuItem}>
+            <a href="https://saeidbabaei.medium.com/">Blog</a>
+          </li>
         </ul>
       </div>
     )
